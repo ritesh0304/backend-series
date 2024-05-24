@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ritesh0304/backend-series#readme",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
   }
 }
