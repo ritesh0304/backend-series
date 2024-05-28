@@ -26,7 +26,7 @@ const uploadOnCloudinary = async (localFilePath) => {
             console.warn(`File not found: ${localFilePath}`);
         }
 
-        return response;
+        return response; 
 
     } catch (error) {
         // Check if file exists before deleting on error
