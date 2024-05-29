@@ -1,5 +1,6 @@
 // require('dotenv').config({path:'./env'})
 
+import bcrypt from 'bcrypt'
 import dotenv from "dotenv";
 
 import connectDB from "./db/index.js";
@@ -18,7 +19,9 @@ connectDB()
     console.log("mongo db connection falied ", err);
   });
 
+
 /*
+
 const app=express();
 
 ;(async ()=>{
